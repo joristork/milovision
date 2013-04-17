@@ -1,0 +1,7 @@
+#!/bin/bash
+# 
+# An example execution with camera parameters used for our project.
+# author: joris stork <joris@wintermute.eu>
+#
+cd ~/uva/afstudeerproject/src
+/usr/bin/python calibrate.py -s 2 -m 1280x960xY8 -f 5

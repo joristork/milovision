@@ -1,0 +1,3 @@
+# udev rules file for Point Grey Chameleon
+SUBSYSTEM=="usb", ATTR{idVendor}=="1e10", ATTR{idProduct}=="2005", GROUP="plugdev"
+

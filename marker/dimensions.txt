@@ -1,0 +1,4 @@
+model_bordered:
+    inner circle: 180.0 x 180.0 px
+    outer circle: 240.0 x 240.0 px
+    image: 256 x 256

@@ -1,0 +1,56 @@
+This is a pythonic wrapper around the libdc1394 Version 2 for FireWire Cameras.
+(http://damien.douxchamps.net/ieee1394/libdc1394/) 
+
+This work was primarily developped by Holger Rapp; I use this at work to do
+freaky things (http://www.youtube.com/watch?v=5O4FrRujlII) and I consider it
+usable and mostly bug free. The library sees some adoption, I am aware of 
+a few other institutions that are using it now.
+
+Included are also two GUIs. Both need PyOpenGL. 
+- The first is writtin wxPython and no longer supported. It can display live
+  images from a camera. An example is included. This needs wxpython. 
+- The second is actively maintained and uses PyQt to display its data. It
+  performs much better then the wxPython version. It depends on PyQt to be
+  installed. 
+
+Usage
+=====
+
+There are example scripts included. Basically there are two camera modes. The
+first one acquires a number of pictures continuously (e.g. it is guaranteed
+that no frames are missing when continously calling Camera.shot(). The other
+mode is freerunning, the current image can always be accessed (thread safe) via
+Camera.current_image. This mode is useful for visualisation or if you are not
+interested in exact timings.  
+
+Synchronized Cams
+=================
+
+Point Grey Research offers for their camera an auto synchronization when they
+are attached to the same IEEE 1394 Bus. The SynchronizedCams Wrapper class
+takes two cameras that need to be opened with the same framerate and mode.
+SynchronizedCams.shot will then deliver two pictures taken at the same time. 
+
+
+Contributors
+============
+
+The library has seen contributions by the following persons:
+
+   Holger Rapp (KIT Karlsruhe, Germany)
+      HolgerRapp@gmx.net
+      user: sirver
+      Project starter, maintainer
+
+   Olvier Roulet (SINTEF, Norway)
+      user: olivier-roulet
+      Support for white balancing and color cameras
+
+   Tamas Haraszti (University of Heidelberg and
+         Max-Planck Institute for Metals Research,  Germany)
+      user: tomio2009
+      Support for triggers. More type safe wrapping of c-calls.
+
+   Robert Jordens 
+      user: jordens
+      Design and most of the implementation of Mode classes and Format 7 handling.

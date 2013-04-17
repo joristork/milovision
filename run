@@ -1,0 +1,23 @@
+#!/bin/bash
+#cd ~/uva/afstudeerproject/src
+#/usr/bin/python main.py blue-circle.jpg
+
+#/usr/bin/python main.py -n 0 -s 1
+
+# random simulation:
+#/usr/bin/python main.py -n 3 -s -1 -d 1 -w 1
+#/usr/bin/python main.py -n 3 -s -1 -d 1
+/usr/bin/python main.py -n 3 -s -1 -w 1 -t 30
+#/usr/bin/python main.py -n 3 -s -1 -t 30
+
+# lines-simulation:
+#/usr/bin/python main.py -n 3 -s -2 -d 1 -w 1
+#/usr/bin/python main.py -n 3 -s -2 -d 1
+#/usr/bin/python main.py -n 3 -s -2 -w 1
+#/usr/bin/python main.py -n 3 -s -2 -t 30
+
+#/usr/bin/python main.py -e 2 -n 3 -m 640x480xY8 -f 5 -w 1
+#/usr/bin/python main.py -e 2 -n 3 -m 1280x960xY8 -f 5 -w 1
+
+# clears out compiled files (but nb: this slows application start up)
+rm *.pyc
