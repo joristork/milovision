@@ -12,11 +12,10 @@ based, refer to `report.pdf`.
 How to use
 ----------
 
-Refer to "report.pdf"'s "implementation" chapter for a description and short
-user manual.
+Refer to the *Implementation* chapter of `report.pdf` for a short user manual.
 
-To try the application, edit, make executable, and run the convenience script,
-"run", or type "python main.py -h".
+For the impatient: edit, make executable, and run the convenience script, `run`,
+or type `python main.py -h`.
 
 Further information
 -------------------
