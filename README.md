@@ -1,4 +1,4 @@
-Milovision: A camera pose estimation programme
+Milovision: a camera pose estimation programme
 ==============================================
 
 A full description and discussion of Milovision is available
@@ -7,11 +7,11 @@ A full description and discussion of Milovision is available
 What
 ----
 
-Milovision is a pose estimation pipeline. It turns images of a known
-circular marker into estimates of the camera's position and rotation
+Milovision is, first, a pose estimation pipeline. It turns images of a
+known circular marker into estimates of the camera's position and rotation
 relative to that marker. 
 
-This project also includes an OpenGL based simulator. The simulator serves to
+The project also includes an OpenGL based simulator. The simulator serves to
 facilitate the validation and performance evaluation of the the pose
 estimation pipeline.
 
