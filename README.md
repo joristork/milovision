@@ -4,6 +4,10 @@ Milovision: a camera pose estimation programme
 A full description and discussion of Milovision is available
 [here](http://wintermute.eu/report.pdf).
 
+Collaborators are more than welcome: just contact the
+[author](http://nl.linkedin.com/in/joris1).
+
+
 What
 ----
 
