@@ -1,24 +1,33 @@
 Milovision: A camera pose estimation programme
 ==============================================
 
-Introduction
-------------
+A full description and discussion of Milovision is available
+[here](http://wintermute.eu/report.pdf).
 
-Milovision is a pose estimation pipeline that turns images of a known circular
-marker into estimates of the camera's position and rotation relative to that
-marker. For information on the mathematical principle on which this pipeline is
-based, refer to `report.pdf`.
+What
+----
+
+Milovision is a pose estimation pipeline. It turns images of a known
+circular marker into estimates of the camera's position and rotation
+relative to that marker. 
+
+This project also includes an OpenGL based simulator. The simulator serves to
+facilitate the validation and performance evaluation of the the pose
+estimation pipeline.
+
+Why
+---
+
+While many pose estimation systems do exist, most are either not freely
+available under an MIT-style (permissive) license, or lack some of the
+advantages of circular marker based systems - such as their resilience to
+occlusion.
 
 How to use
 ----------
 
-Refer to the *Implementation* chapter of `report.pdf` for a short user manual.
+Refer to the *Implementation* chapter of the
+[report](http://wintermute.eu/report.pdf) for a short user manual.
 
-For the impatient: edit, make executable, and run the convenience script, `run`,
-or type `python main.py -h`.
-
-Further information
--------------------
-
-Refer to `report.pdf` for background on this project and a discussion of the
-merits of this programme.
+For the impatient: edit, make executable, and run the convenience script,
+`run`, or type `python main.py -h`.
