@@ -11,17 +11,20 @@ Milovision is, first, a pose estimation pipeline. It turns images of a
 known circular marker into estimates of the camera's position and rotation
 relative to that marker. 
 
-The project also includes an OpenGL based simulator. The simulator serves to
-facilitate the validation and performance evaluation of the the pose
-estimation pipeline.
+This project includes an OpenGL based simulator that generates images of markers
+in the virtual camera's field of view. The simulator serves to validate the
+model, and to evaluate and improve the performance of the pose estimation
+pipeline.
 
 Why
 ---
 
-While many pose estimation systems do exist, most are either not freely
-available under an MIT-style (permissive) license, or lack some of the
-advantages of circular marker based systems - such as their resilience to
-occlusion.
+While many visual marker based pose estimation systems do exist, the motivation
+for this project arose from the lack of freely available implementations based
+on circular markers. Circular marker based methods offer some distinct
+advantages for the purpose of pose estimation by comparison with those that rely
+on square markers, not least due to their ability to accurately detect partially
+occluded ellipses.
 
 How to use
 ----------
