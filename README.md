@@ -2,7 +2,7 @@ Milovision: a camera pose estimation programme
 ==============================================
 
 A full description and discussion of Milovision is available
-[here](http://wintermute.eu/report.pdf).
+[here](http://www.science.uva.nl/onderwijs/thesis/centraal/files/f755157801.pdf).
 
 Collaborators are more than welcome: just contact the
 [author](http://nl.linkedin.com/in/joris1).
@@ -34,7 +34,7 @@ How to use
 ----------
 
 Refer to the *Implementation* chapter of the
-[report](http://wintermute.eu/report.pdf) for a short user manual.
+[report](http://www.science.uva.nl/onderwijs/thesis/centraal/files/f755157801.pdf) for a short user manual.
 
 For the impatient: edit, make executable, and run the convenience script,
 `run`, or type `python main.py -h`.
